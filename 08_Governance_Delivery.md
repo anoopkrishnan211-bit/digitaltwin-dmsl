@@ -47,7 +47,7 @@
 
 ## 3. Project Schedule (High-Level Timeline)
 
-| **PhaseStartEndDurationKey Deliverables** |         |          |           |                                                       |
+| **Phase** | Start        |    End      |  Duration         |      Key Deliverables                                                 |
 | ----------------------------------------- | ------- | -------- | --------- | ----------------------------------------------------- |
 | **Phase 0**                               | Week 1  | Week 4   | 4 weeks   | Discovery Report, Data Readiness Baseline, MVP Scope  |
 | **Phase 1**                               | Week 5  | Week 16  | 12 weeks  | MVP Go-Live (1–2 lines), Training, KPI Baselines      |
@@ -63,7 +63,7 @@
 
 ## 4. Milestone Plan
 
-| **Milestone IDMilestone NamePlanned DateSuccess CriteriaOwner** |                            |         |                                                  |                    |
+| **Milestone ID** |    Milestone Name                        |  Planned Date       |    Success Criteria                                              |    Owner                |
 | --------------------------------------------------------------- | -------------------------- | ------- | ------------------------------------------------ | ------------------ |
 | **M1**                                                          | Phase 0 Discovery Complete | Week 4  | Discovery report approved; MVP scope signed off  | Project Lead       |
 | **M2**                                                          | MVP Go-Live                | Week 16 | 80% user adoption; KPI-01 baseline captured      | Project Lead       |
@@ -74,7 +74,7 @@
 
 ## 5. RACI Matrix
 
-| **Activity / DeliverableCOO (Sponsor)Plant ManagerMaintenance LeadIT ManagerProject Lead (Candidate)Solution Architect (Specialist)** |   |   |   |   |   |   |
+| **Activity / Deliverable** | COO (Sponsor)  | Plant Manager  | Maintenance Lead  | IT Manager  |  Project Lead (Candidate)   | Solution Architect (Specialist)  |
 | ------------------------------------------------------------------------------------------------------------------------------------- | - | - | - | - | - | - |
 | **Discovery Workshops**                                                                                                               | C | R | R | C | A | I |
 | **Requirements Sign-Off**                                                                                                             | C | A | R | R | A | I |
@@ -90,7 +90,7 @@
 
 ## 6. Risk Register
 
-| **Risk IDRisk DescriptionProbabilityImpactMitigation StrategyOwner** |                                                    |        |        |                                                               |                |
+| **Risk ID** |    Risk Description                                                |  Impact      |  Mitigation Strategy      |                                                               |   Owner             |
 | -------------------------------------------------------------------- | -------------------------------------------------- | ------ | ------ | ------------------------------------------------------------- | -------------- |
 | **RISK-01**                                                          | Data quality insufficient for predictive AI        | High   | High   | Phase 1 focuses on visibility; predictive deferred to Phase 3 | Project Lead   |
 | **RISK-02**                                                          | User adoption low (frontline resistance)           | Medium | High   | Change champions; co-design workshops; quick wins in MVP      | Change Manager |
