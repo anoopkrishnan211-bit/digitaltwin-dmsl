@@ -35,7 +35,7 @@
 
 ## 3. Solution Comparison (Options from 04. Process & Solution Analysis)
 
-| **CriterionWeightOption 1 (Manual)Option 2 (Visibility + RAG)Option 3 (Full DT + AI)Option 4 (Turnkey MES)** |      |         |         |         |         |
+| **Criterion** | Weight     |  Option 1 (Manual)       |  Option 2 (Visibility + RAG)       |   Option 3 (Full DT + AI)      |  Option 4 (Turnkey MES)       |
 | ------------------------------------------------------------------------------------------------------------ | ---- | ------- | ------- | ------- | ------- |
 | Meets Business Needs                                                                                         | 30%  | 2/5     | 3/5     | 5/5     | 4/5     |
 | Implementation Complexity                                                                                    | 25%  | 5/5     | 4/5     | 3/5     | 4/5     |
@@ -81,7 +81,7 @@
 
 ## 5. Business Value Assessment
 
-| **Value DriverDescriptionMeasurement ApproachLinked KPI** |                                                      |                                                           |                |
+| **Value Driver** |     Description                                                 |      Measurement Approach                                                     |    Linked KPI            |
 | --------------------------------------------------------- | ---------------------------------------------------- | --------------------------------------------------------- | -------------- |
 | **Improved Visibility**                                   | Unified view of downtime and changeover across lines | % events logged with valid data                           | KPI-01, KPI-02 |
 | **Faster Decision-Making**                                | SOPs and historical context at point of decision     | Avg time to retrieve SOP                                  | KPI-04         |
