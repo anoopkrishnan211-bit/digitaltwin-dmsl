@@ -26,7 +26,7 @@
 **Purpose:**
 To translate business objectives (01. Project Initiation) and business needs (02. Discovery) into product-level outcomes.
 
-| **Objective IDProduct ObjectiveLinked Business Objective (01)Linked Business Need (02)Success Metric (Directional)** |                                                                                         |        |    |                                                |
+| **Objective ID** |   Product Objective                                                                                      |  Linked Business Objective (01)      |  Linked Business Need (02)  |   Success Metric (Directional)                                    |
 | -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | ------ | -- | ---------------------------------------------- |
 | **PO-01**                                                                                                            | Deliver unified visibility into downtime events across production lines.                | O1, O2 | N1 | % downtime events logged with valid fault code |
 | **PO-02**                                                                                                            | Enable standardized changeover tracking with start/end times and reason codes.          | O2     | N2 | Avg changeover duration by line (trend)        |
@@ -47,7 +47,7 @@ To translate business objectives (01. Project Initiation) and business needs (02
 **Purpose:**
 To define high-level capabilities the product must deliver, mapped to business needs and requirements.
 
-| **Capability IDCapabilityDescriptionLinked Business NeedLinked BRLinked FR** |                              |                                                                                |        |              |                |
+| **Capability ID** |        Capability              |     Description                                                                     | Linked Business Need   | Linked BR   |   Linked FR   |
 | ---------------------------------------------------------------------------- | ---------------------------- | ------------------------------------------------------------------------------ | ------ | ------------ | -------------- |
 | **CAP-01**                                                                   | Downtime Event Capture       | Log downtime events with timestamp, line, asset, fault code.                   | N1     | BR-01        | FR-01          |
 | **CAP-02**                                                                   | Changeover Tracking          | Record changeover start/end times, line, reason code; auto-calculate duration. | N2     | BR-02        | FR-02          |
@@ -71,7 +71,7 @@ To define high-level capabilities the product must deliver, mapped to business n
 **Purpose:**
 To break capabilities into user-facing features, without over-specifying technical implementation.
 
-| **Feature IDFeatureLinked CapabilityUser RoleDescription** |                             |        |                                |                                                                    |
+| **Feature ID** |        Feature                 | Linked Capability       |    User Role                   |  Description                                                                  |
 | ---------------------------------------------------------- | --------------------------- | ------ | ------------------------------ | ------------------------------------------------------------------ |
 | **F-01**                                                   | Downtime Logging Form       | CAP-01 | Shift Supervisor               | Web form to log downtime with enforced fault taxonomy.             |
 | **F-02**                                                   | Changeover Timer            | CAP-02 | Operator                       | Start/stop timer for changeover; auto-calculates duration.         |
@@ -94,7 +94,7 @@ To break capabilities into user-facing features, without over-specifying technic
 **Purpose:**
 To prioritize features using MoSCoW method, aligned with phased rollout and data readiness.
 
-| **Feature IDFeaturePriorityRationalePhase** |                             |             |                                                                |               |
+| **Feature ID** |    Feature                         |   Priority     |        Rationale                                                        |  Phase             |
 | ------------------------------------------- | --------------------------- | ----------- | -------------------------------------------------------------- | ------------- |
 | **F-01**                                    | Downtime Logging Form       | Must Have   | Foundational for visibility (N1); enables root-cause analysis. | Phase 1 (MVP) |
 | **F-05**                                    | Fault Code Selector         | Must Have   | Enables standardized taxonomy (N5); required for analytics.    | Phase 1 (MVP) |
@@ -160,7 +160,7 @@ To define the Minimum Viable Product that delivers core business value while val
 **Purpose:**
 To show phased delivery from MVP to factory-wide scale, aligned with business value and data readiness.
 
-| **PhaseTimelineFocusKey FeaturesBusiness Outcome** |             |                                                      |                            |                                                       |
+| **Phase** |  Timeline           |     Focus                                                 |  Key Features                          |             Business Outcome                                          |
 | -------------------------------------------------- | ----------- | ---------------------------------------------------- | -------------------------- | ----------------------------------------------------- |
 | **Phase 0: Discovery & Validation**                | Weeks 1–4   | Validate assumptions, audit data, confirm MVP scope  | N/A (Planning)             | Confirmed business case; data readiness baseline      |
 | **Phase 1: MVP (Visibility)**                      | Weeks 5–16  | Foundational data capture and governance             | F-01, F-02, F-05, F-07     | Unified downtime/changeover logging; audit trail      |
