@@ -138,7 +138,7 @@ To express requirements from end-user perspectives, limited to 10 representative
 **Purpose:**
 To define testable conditions for each user story, enabling validation without engineering-level test scripts.
 
-| **US-ID** |                                                                                                                                                       | Acceptance Criteria (Summary)
+| **US-ID** |                                                                                                                                                       | Acceptance Criteria (Summary) |
 | -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **US-01**                              | Given I am a Shift Supervisor, when I log a downtime event, then the system saves timestamp, line, asset, and fault code; free-text fault is blocked. |
 | **US-02**                              | Given I am a Maintenance Lead, when I open the downtime list, then I see events filtered by my shift with sortable columns.                           |
