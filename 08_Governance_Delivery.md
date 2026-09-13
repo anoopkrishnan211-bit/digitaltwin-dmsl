@@ -151,11 +151,10 @@
 
 ## 9. Phased Roadmap (Visual Summary)
 
-```
-text
-```
-
-**`Phase 0 (4w): Discovery → MVP Scope → Data Baseline   Phase 1 (12w): Forms + Dashboards + Taxonomy → Go-Live (1–2 lines)   Phase 2 (16w): All Lines + RAG + Exports → Factory-Wide Visibility   Phase 3 (16w+): Anomaly Detection + Alerts → Predictive Maintenance  `**
+**`Phase 0 (4w): Discovery → MVP Scope → Data Baseline   
+Phase 1 (12w): Forms + Dashboards + Taxonomy → Go-Live (1–2 lines)   
+Phase 2 (16w): All Lines + RAG + Exports → Factory-Wide Visibility   
+Phase 3 (16w+): Anomaly Detection + Alerts → Predictive Maintenance  `**
 
 ---
 
