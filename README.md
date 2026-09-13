@@ -3,6 +3,8 @@
 Generated from the supplied `Pasted markdown(8).md`.
 
 ## Included
+- 01. Project Master Definition
+- 02. DMS Discovery Current State Assessment
 - 03. Requirements
 - 04. Process & Solution Analysis
 - 05. Product Management
