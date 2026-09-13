@@ -2,7 +2,7 @@
 
 ## 1. Platform Comparison (Hypothetical Options)
 
-| **Platform TypeExample (Hypothetical)StrengthsWeaknessesFit to DMS Needs** |                             |                                                            |                                             |                                          |
+| **Platform Type** |    Example (Hypothetical)                  |     Strengths                                                       |    Weaknesses                                  |         Fit to DMS Needs                                |
 | -------------------------------------------------------------------------- | --------------------------- | ---------------------------------------------------------- | ------------------------------------------- | ---------------------------------------- |
 | **Low-Code Operational App**                                               | “OpsBuildr”                 | Fast MVP; web forms; dashboards; low IT dependency         | Limited predictive AI; basic integration    | Strong for Phase 1 (visibility)          |
 | **Industrial IoT Suite**                                                   | “FactoryPulse”              | Built-in asset modeling; anomaly detection; OT integration | Higher cost; complex deployment             | Strong for Phase 3 (predictive)          |
@@ -19,7 +19,7 @@
 
 ## 2. Competitive Analysis (Solution Approaches)
 
-| **ApproachTime-to-ValueComplexityPredictive CapabilityChange BurdenOverall Fit** |                      |        |                              |        |                        |
+| **Approach** |   Time-to-Value              |  Complexity      |      Predictive Capability               |  Change Burden      |      Overall Fit            |         
 | -------------------------------------------------------------------------------- | -------------------- | ------ | ---------------------------- | ------ | ---------------------- |
 | **Manual Logging + Dashboards**                                                  | Fast (4–8 weeks)     | Low    | None                         | Low    | Good for MVP           |
 | **CMMS Enhancement**                                                             | Medium (8–12 weeks)  | Medium | Limited (if vendor supports) | Medium | Moderate               |
