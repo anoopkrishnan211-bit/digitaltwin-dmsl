@@ -11,7 +11,7 @@
 **Purpose:**
 To restate and extend data requirements from 03. Requirements in an information-management context, focusing on **what**, **why**, and **quality**—not technical schema.
 
-| **DR-IDData EntityKey AttributesPurposeQuality ExpectationLinked FR** |                    |                                                                                           |                                      |                                         |              |
+| **DR-ID** |   Data Entity                 |   Key Attributes                                                                                        |    Purpose                                  |      Quality Expectation                                   |   Linked FR           |
 | --------------------------------------------------------------------- | ------------------ | ----------------------------------------------------------------------------------------- | ------------------------------------ | --------------------------------------- | ------------ |
 | **DR-01**                                                             | Downtime Event     | Timestamp, Line ID, Asset ID, Fault Code, Logged By                                       | Unified downtime visibility (N1)     | Complete, consistent fault codes        | FR-01        |
 | **DR-02**                                                             | Changeover Record  | Start Time, End Time, Line ID, Reason Code, Logged By                                     | Changeover tracking (N2)             | Timely entry; standardized reason codes | FR-02        |
@@ -34,7 +34,7 @@ To restate and extend data requirements from 03. Requirements in an information-
 **Purpose:**
 To make the operational information model tangible for business users and analysts, without database-level detail.
 
-| **EntityAttributeType (Business View)DescriptionExample ValuesMandatory?Validation Rule** |              |           |                                  |                                              |             |                                        |
+| **Entity** |  Attribute            |   Type (Business View)        |   Description                               |   Example Values                                           |     Mandatory?        |    Validation Rule                                    |
 | ----------------------------------------------------------------------------------------- | ------------ | --------- | -------------------------------- | -------------------------------------------- | ----------- | -------------------------------------- |
 | **Downtime Event**                                                                        | Timestamp    | Date-Time | When the downtime occurred       | 2026-09-13 14:30                             | Yes         | System auto-captures                   |
 |                                                                                           | Line ID      | Text      | Production line identifier       | RFL-01, RFL-02                               | Yes         | From Line Master list                  |
@@ -64,7 +64,7 @@ To make the operational information model tangible for business users and analys
 **Purpose:**
 To formally define KPIs with formula, data source, and ownership—aligned with 05. Product Management but extended for information governance.
 
-| **KPI IDKPI NameFormulaData SourceFrequencyOwner (Business Role)Linked Business Need** |                             |                                                          |                          |                  |                    |     |
+| **KPI ID** |    KPI Name                         |      Formula                                                    |    Data Source                      |   Frequency               |    Owner (Business Role)                |  Linked Business Need   |
 | -------------------------------------------------------------------------------------- | --------------------------- | -------------------------------------------------------- | ------------------------ | ---------------- | ------------------ | --- |
 | **KPI-01**                                                                             | Downtime Logging Compliance | (Events with valid fault code / Total events) × 100      | Downtime Event entity    | Daily            | Plant Manager      | N1  |
 | **KPI-02**                                                                             | Avg Changeover Duration     | Total changeover time / Number of changeovers            | Changeover Record entity | Weekly           | Operations Manager | N2  |
@@ -153,7 +153,7 @@ To explicitly assess data readiness for predictive use cases, per prompt’s emp
 
 **Assessment Dimensions:**
 
-| **DimensionCurrent State (Hypothetical Assumption)Target StateGapMitigation in Phase 1** |                                                                    |                                                            |           |                                                             |
+| **Dimension** |     Current State (Hypothetical Assumption)                                                               |            Target State                                                |  Gap         |     Mitigation in Phase 1                                                        |
 | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ---------------------------------------------------------- | --------- | ----------------------------------------------------------- |
 | **Data Availability**                                                                    | Fragmented: Excel logs, paper records, partial CMMS data           | Unified digital logs for all downtime/changeover events    | High      | Manual web forms ensure new data is captured consistently   |
 | **Data Quality**                                                                         | Inconsistent fault codes; missing timestamps; no standard taxonomy | Enforced fault taxonomy; auto-timestamps; mandatory fields | High      | Validation rules in forms (e.g., fault code dropdown)       |
@@ -182,7 +182,7 @@ To explicitly assess data readiness for predictive use cases, per prompt’s emp
 **Purpose:**
 To define what reports business users need, at what frequency, and for what decisions—without BI tool specs.
 
-| **Report IDReport NameAudienceFrequencyKey MetricsPurposeLinked KPI** |                                  |                                   |              |                                                           |                                              |                |
+| **Report ID** |      Report Name                            |  Audience                                 | Frequency             |      Key Metrics                                                     |     Purpose                                         |  Linked KPI              |
 | --------------------------------------------------------------------- | -------------------------------- | --------------------------------- | ------------ | --------------------------------------------------------- | -------------------------------------------- | -------------- |
 | **RPT-01**                                                            | Daily Downtime Summary           | Shift Supervisors, Plant Manager  | Daily        | Downtime events by line, fault category, top assets       | Identify daily hotspots                      | KPI-01, KPI-05 |
 | **RPT-02**                                                            | Weekly Changeover Trends         | Operations Manager, Plant Manager | Weekly       | Avg changeover duration by line, reason code distribution | Track improvement progress                   | KPI-02         |
