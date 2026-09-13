@@ -32,7 +32,7 @@ To define high-level business requirements traceable to discovered pain points a
 **Purpose:**
 To specify what the system must do to satisfy business requirements, at a level appropriate for BA/PM positioning (not engineering specs).
 
-| **FR-IDFunctional RequirementLinked BRLinked Business NeedValidation Approach** |                                                                                                        |              |        |                                             |
+| **FR-ID** |         Functional Requirement                                                                                               |  Linked BR            |    Linked Business Need    |                Validation Approach                             |
 | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------ | ------ | ------------------------------------------- |
 | **FR-01**                                                                       | System shall capture downtime events with timestamp, production line, asset ID, and fault code.        | BR-01        | N1     | Demo: Create downtime event; verify fields  |
 | **FR-02**                                                                       | System shall record changeover start time, end time, line, and reason code.                            | BR-02        | N2     | Demo: Log changeover; verify duration calc  |
