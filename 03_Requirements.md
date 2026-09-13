@@ -54,7 +54,7 @@ To specify what the system must do to satisfy business requirements, at a level 
 **Purpose:**
 To define quality attributes, constraints, and operational expectations at a business/PM level (not engineering specs).
 
-| **NFR-IDNon-Functional RequirementCategoryLinked BRRationale** |                                                                                               |                  |                     |                                                           |
+| **NFR-ID** |               Non-Functional Requirement                                                                                |    Category              |           Linked BR          |      Rationale                                                     |
 | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ---------------- | ------------------- | --------------------------------------------------------- |
 | **NFR-01**                                                     | System shall be accessible via web browser on existing plant PCs and tablets.                 | Usability        | BR-01, BR-06        | Leverages existing hardware; reduces training             |
 | **NFR-02**                                                     | System shall log all user actions (create, edit, approve) with timestamp and user ID.         | Auditability     | BR-01, BR-02, BR-05 | Supports traceability and compliance                      |
