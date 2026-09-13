@@ -113,7 +113,7 @@ To explicitly map gaps between As-Is and To-Be, linking to business needs and re
 **Purpose:**
 To present realistic solution alternatives considered during presales/solutioning, without over-engineering.
 
-| **Option** |           Description                                                         |     ProsCons                                                           |      Fit to Business Needs                                                  |                                                |
+| **Option** |           Description                                                         |     Pros                                                           |                    Cons                                |      Fit to Business Needs                                          |
 | -------------------------------------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------- |
 | **Option 1: Manual Logging Only**                  | Web-based forms for downtime/changeover; no integration, no alerts | Low cost, fast deployment, minimal IT dependency               | No early warning; limited analytics                    | Meets N1, N2, N5; misses N3, N4, N6            |
 | **Option 2: Integrated Visibility + RAG**          | Manual logging + CMMS integration + SOP retrieval via RAG          | Unified data; decision support; scalable taxonomy              | Still reactive; no predictive capability               | Meets N1, N2, N4, N5; misses N3, N6            |
@@ -136,7 +136,7 @@ To present realistic solution alternatives considered during presales/solutionin
 **Purpose:**
 To evaluate options against criteria, demonstrating presales decision-making rigour.
 
-| **CriteriaWeightOption 1Option 2Option 3Option 4** |      |         |         |         |         |
+| **Criteria** |   Weight   |  Option 1       |  Option 2       |   Option 3      |  Option 4       |
 | -------------------------------------------------- | ---- | ------- | ------- | ------- | ------- |
 | **Meets Business Needs**                           | 30%  | 2/5     | 3/5     | 5/5     | 4/5     |
 | **Implementation Complexity**                      | 25%  | 5/5     | 4/5     | 3/5     | 4/5     |
