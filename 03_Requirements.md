@@ -77,7 +77,7 @@ To define quality attributes, constraints, and operational expectations at a bus
 **Purpose:**
 To define what data is required, why, and at what quality level—without engineering-level schema design.
 
-| **DR-IDData RequirementSource (Hypothetical)PurposeQuality Expectation** |                                                             |                             |                |                                         |
+| **DR-ID** |       Data Requirement                                                      |                 Source (Hypothetical)            |    Purpose            |          Quality Expectation                               |
 | ------------------------------------------------------------------------ | ----------------------------------------------------------- | --------------------------- | -------------- | --------------------------------------- |
 | **DR-01**                                                                | Downtime event records (timestamp, line, asset, fault code) | Operator logs, CMMS export  | FR-01, BR-01   | Complete, consistent fault codes        |
 | **DR-02**                                                                | Changeover logs (start, end, line, reason)                  | Shift supervisor records    | FR-02, BR-02   | Timely entry; standardized reason codes |
