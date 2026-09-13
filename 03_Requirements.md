@@ -98,7 +98,7 @@ To define what data is required, why, and at what quality level—without engine
 **Purpose:**
 To define high-level integration needs without specifying protocols or architectures.
 
-| **IR-IDIntegration RequirementSource System (Hypothetical)PurposeConstraint** |                                                                                         |                             |              |                                             |
+| **IR-ID** |     Integration Requirement                                                                                    |     Source System (Hypothetical)                        |      Purpose        |             Constraint                                |
 | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------- | ------------ | ------------------------------------------- |
 | **IR-01**                                                                     | System shall ingest downtime event data from existing CMMS via scheduled export or API. | CMMS                        | FR-01, BR-01 | Must comply with IT security policies (C02) |
 | **IR-02**                                                                     | System shall allow manual entry of downtime/changeover data via web form.               | N/A (User Input)            | FR-01, FR-02 | Fallback if CMMS integration delayed        |
@@ -116,7 +116,7 @@ To define high-level integration needs without specifying protocols or architect
 **Purpose:**
 To express requirements from end-user perspectives, limited to 10 representative stories (per prompt’s “no artificial 50+ backlog” principle).
 
-| **US-IDUser StoryLinked FRLinked BRPriority** |                                                                                                                                      |              |         |             |
+| **US-ID** |              User Story                                                                                                                        |    Linked FR          | Linked BR       |       Priority      |
 | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------ | ------- | ----------- |
 | **US-01**                                     | As a Shift Supervisor, I want to log a downtime event with line, asset, and fault code so that I can track unplanned stops.          | FR-01        | BR-01   | Must Have   |
 | **US-02**                                     | As a Maintenance Lead, I want to view all downtime events for my shift so that I can prioritize repairs.                             | FR-01, FR-06 | BR-01   | Must Have   |
@@ -138,7 +138,7 @@ To express requirements from end-user perspectives, limited to 10 representative
 **Purpose:**
 To define testable conditions for each user story, enabling validation without engineering-level test scripts.
 
-| **US-IDAcceptance Criteria (Summary)** |                                                                                                                                                       |
+| **US-ID** |                                                                                                                                                       | Acceptance Criteria (Summary)
 | -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **US-01**                              | Given I am a Shift Supervisor, when I log a downtime event, then the system saves timestamp, line, asset, and fault code; free-text fault is blocked. |
 | **US-02**                              | Given I am a Maintenance Lead, when I open the downtime list, then I see events filtered by my shift with sortable columns.                           |
@@ -158,7 +158,7 @@ To define testable conditions for each user story, enabling validation without e
 **Purpose:**
 To demonstrate end-to-end traceability from business objective to test case and KPI, per prompt’s traceability principle.
 
-| **Business ObjectiveBusiness NeedBR-IDFR-IDSolution ComponentPredictive Use CaseTest Case (Summary)KPI** |                          |       |              |                              |                        |                                                 |                                             |
+| **Business Objective** |            Business Need              | BR-ID      |      FR-ID        |          Solution Component                    |         Predictive Use Case               |          Test Case (Summary)                                       |     KPI                                        |
 | -------------------------------------------------------------------------------------------------------- | ------------------------ | ----- | ------------ | ---------------------------- | ---------------------- | ----------------------------------------------- | ------------------------------------------- |
 | **O1** (Discovery)                                                                                       | N1 (Unified view)        | BR-01 | FR-01        | Downtime Logging Module      | N/A                    | TC-01: Log event; verify fields                 | % downtime events logged with fault code    |
 | **O2** (Requirements)                                                                                    | N2 (Changeover tracking) | BR-02 | FR-02        | Changeover Tracker           | N/A                    | TC-02: Log changeover; verify duration          | Avg changeover duration by line             |
