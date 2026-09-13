@@ -11,7 +11,7 @@
 **Purpose:**
 To define high-level business requirements traceable to discovered pain points and business needs, without prescribing technical implementation.
 
-| **BR-IDBusiness RequirementLinked Business NeedLinked Pain PointPriority** |                                                                                                                     |    |                       |             |
+| **BR-ID** |      Business Requirement                                                                                                               | Linked Business Need   | Linked Pain Point                      |       Priority      |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | -- | --------------------- | ----------- |
 | **BR-01**                                                                  | The solution shall provide a unified view of downtime events across all production lines.                           | N1 | Fragmented logs       | Must Have   |
 | **BR-02**                                                                  | The solution shall enable standardized tracking of changeover activities (start, end, duration, reason).            | N2 | Extended changeover   | Must Have   |
