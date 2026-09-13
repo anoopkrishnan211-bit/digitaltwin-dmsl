@@ -181,7 +181,7 @@ To show phased delivery from MVP to factory-wide scale, aligned with business va
 **Purpose:**
 To define how product success will be measured, linked to business objectives and capabilities.
 
-| **KPI IDKPIFormulaLinked Product ObjectiveTarget (Directional)Data Source** |                             |                                                          |             |                          |                           |
+| **KPI ID** |   KPI                          |  Formula                                                        |  Linked Product Objective           |     Target (Directional)                     |    Data Source                       |
 | --------------------------------------------------------------------------- | --------------------------- | -------------------------------------------------------- | ----------- | ------------------------ | ------------------------- |
 | **KPI-01**                                                                  | Downtime Logging Compliance | (Events with valid fault code / Total events) × 100      | PO-01       | ≥ 90%                    | Downtime Logging Form     |
 | **KPI-02**                                                                  | Avg Changeover Duration     | Total changeover time / Number of changeovers            | PO-02       | Trend downward over time | Changeover Timer          |
