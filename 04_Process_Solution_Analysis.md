@@ -91,7 +91,7 @@ To describe target-state workflows enabled by the proposed solution, at a busine
 **Purpose:**
 To explicitly map gaps between As-Is and To-Be, linking to business needs and requirements.
 
-| **Gap IDAs-Is StateTo-Be StateGap DescriptionLinked Business NeedLinked BR** |                                          |                                                       |                                              |                          |       |
+| **Gap ID** |                  As-Is State                        |                         To-Be State                              |       Gap Description                                   |     Linked Business Need                |   Linked BR    |
 | ---------------------------------------------------------------------------- | ---------------------------------------- | ----------------------------------------------------- | -------------------------------------------- | ------------------------ | ----- |
 | **GAP-01**                                                                   | Downtime logged in Excel/paper           | Downtime logged in unified system with fault taxonomy | No standardized, searchable downtime records | N1 (Unified view)        | BR-01 |
 | **GAP-02**                                                                   | Changeover timing not recorded           | Changeover start/end times auto-captured              | No baseline for improvement                  | N2 (Changeover tracking) | BR-02 |
@@ -113,7 +113,7 @@ To explicitly map gaps between As-Is and To-Be, linking to business needs and re
 **Purpose:**
 To present realistic solution alternatives considered during presales/solutioning, without over-engineering.
 
-| **OptionDescriptionProsConsFit to Business Needs** |                                                                    |                                                                |                                                        |                                                |
+| **Option** |           Description                                                         |     ProsCons                                                           |      Fit to Business Needs                                                  |                                                |
 | -------------------------------------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------- |
 | **Option 1: Manual Logging Only**                  | Web-based forms for downtime/changeover; no integration, no alerts | Low cost, fast deployment, minimal IT dependency               | No early warning; limited analytics                    | Meets N1, N2, N5; misses N3, N4, N6            |
 | **Option 2: Integrated Visibility + RAG**          | Manual logging + CMMS integration + SOP retrieval via RAG          | Unified data; decision support; scalable taxonomy              | Still reactive; no predictive capability               | Meets N1, N2, N4, N5; misses N3, N6            |
