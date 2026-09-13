@@ -90,7 +90,7 @@
 
 ## 6. Risk Register
 
-| **Risk ID** |    Risk Description                                                |  Impact      |  Mitigation Strategy      |                                                               |   Owner             |
+| **Risk ID** |    Risk Description                                                |  Probability |  Impact      |                     Mitigation Strategy                               |   Owner             |
 | -------------------------------------------------------------------- | -------------------------------------------------- | ------ | ------ | ------------------------------------------------------------- | -------------- |
 | **RISK-01**                                                          | Data quality insufficient for predictive AI        | High   | High   | Phase 1 focuses on visibility; predictive deferred to Phase 3 | Project Lead   |
 | **RISK-02**                                                          | User adoption low (frontline resistance)           | Medium | High   | Change champions; co-design workshops; quick wins in MVP      | Change Manager |
